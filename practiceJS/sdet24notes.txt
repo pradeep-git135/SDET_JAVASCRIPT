@@ -1,0 +1,80 @@
+node js : nodeJs is a wraper written on top of plane_javascript to perform server side programming
+
+webdriverJs : default selenium binding is webdriverJS
+
+webdriverIo : it is a wrapper written on top of webdriverJS by using nodejs
+
+javascript : 
+  1) javascript is a scripting language (interpretation and execution occurs at run time)
+  2) javascript is useed to develop an interactive webpages (dynamic web pages)
+  3) javascript is mainly used for client side validation
+  4) dynamically typed language (int a = 10;  var a = 10, var a = "pradeep")
+  5) js is a case sensitive 
+  
+
+ browser can understand javascript bcz inbuilt has a translater 
+ each and every indivisual browser has a specific translater 
+for e.g chrome browser has an interpreter called v8
+	mozillaFirefoox has spiderMonkey
+	safari has javascript_core
+	ie has chakra
+
+javascript can be executed on 2 platforms:
+ 1) on the browser ==> any browser
+	we can embed our javascript code in html
+		2 different ways 
+			1] inline embeding i.e, by using script tag (<script> </script>)  
+			2] external embeding i.e, by using script tag with src attribute (<script src = "file path"> </script>)
+2) off the browser ==> server side and we need nodeJs for it
+	we will make use of node to execute our javascript code i.e, node <file name>
+
+
+tokens: tokens are the smallest unit of javascript code 
+	tokens are classified into:
+		1] keywords : 
+			keywords are programmer defined words i.e, already they have a prdefined meaning (e.g var, if, else, for, foreach, let, const)	       
+		2] identifiers:
+			user defined words or named memory blocks (e.g var x = 10, y = "string")
+			it may be combination of alfanumeric but it shouldn't start with numeric i.e, a2 = 20,==> valid   2a = 20 ==> invalid 
+			_ and $ we can use 
+		3] literals:
+			literals are the values that we store inside the memory
+		4] operators: 
+			symbol used to perform mathematical operations (=, ==, <, >, /, +)
+		5] separetors:
+			are the symbols used to separate the code (e.g (,), {, }, ; [,])
+
+datatypes in javascript:
+2 types 
+ 1) premitive 
+ 2) non premitive 
+premetive datatypes:
+	1] number datatype
+	2] string
+	3] boolean
+	4] null
+	5] undefined 
+non premitive 
+1] objects 
+2] functions
+3] array
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
