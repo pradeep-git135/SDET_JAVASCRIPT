@@ -80,7 +80,21 @@ anonymous functions = function without names
 
  4] arrow functions:
 	var fxn1 = () => {}
-	
+
+*callback function:
+	passing a referece of one function as an argument in another funtion
+	 and executing/invoking in it is called callback function
+	 
+*closure property of a function	:
+	inner function still having an access on the variable that had been declared on the outer function 
+	even after the execution of outer function
+
+#objects:
+	any entity having states/properties and behavior/functions is called an object
+
+there are many ways of creating an object in javascript:
+1] creating object by object literal syntax:
+	var objname = {property1 : value1, property2 : value3,.........property n : value n}
 
 
 
