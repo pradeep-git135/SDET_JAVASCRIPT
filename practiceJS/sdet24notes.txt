@@ -58,7 +58,35 @@ non premitive
 1] objects 
 2] functions
 3] array
+4]math
+5]date
+
+FUNCTIONS : it is block of code which perform a specific task, advantage reuseability
+how to create a function in javascript:
+ there are differnt ways of creating a function in javascript
+ 1] standard function/function declaration:
+	syntax: 
+		function nameOfFunction (n_parameters) {statement block }
+
+ 2] function expression:
+
+	syntax: 
+		var nameOfFunction  = function (n_parameters) {statement block }
+
+anonymous functions = function without names
+
+ 3] iif/ immidietly invocable function:
+	(function (n_parameters) {statement block })()
+
+ 4] arrow functions:
+	var fxn1 = () => {}
 	
+
+
+
+
+
+
 
 
 
