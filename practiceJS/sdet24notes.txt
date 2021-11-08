@@ -1,4 +1,4 @@
-node js : nodeJs is a wraper written on top of plane_javascript to perform server side programming
+ node js : nodeJs is a wraper written on top of plane_javascript to perform server side programming
 
 webdriverJs : default selenium binding is webdriverJS
 
@@ -93,14 +93,38 @@ anonymous functions = function without names
 	any entity having states/properties and behavior/functions is called an object
 
 there are many ways of creating an object in javascript:
-1] creating object by object literal syntax:
+1] creating an object by object literal syntax:
 	var objname = {property1 : value1, property2 : value3,.........property n : value n}
 
+2] creating an object by using constructor function:
 
+	function FunctionName(prop1, prop2, prop3....){
+		this.prop1 = prop1
+		this.prop2 = prop2
+		this.prop3 = prop3
+	}
+ var obj = new FunctionName(value1, value2, value3.....)
 
+if you need to modify the properties of a construterFunction we have to make use pf 'prototype' keyword
 
+prototype : each and every object in javascript had a property called prototype and the prototype proprty
+can only accessed by an object taht had been created from constructor function
 
+3] crating an object by using object.create() method (it is an es6 feature):
+	syntax: 
+		object.create(obj_refeence)
+*)by default object.create(obj_refeence) will return you an empty object with prortotype of inheritted object
+	
+*) each and every object in javascript is derived from base object(Object)
 
+4] creating an object by using class:
+ class Person  {
+	constructor (prop1, prop2,....) {
+		this.prop1 = prop1
+		this.prop2 = prop2
+	}
+}
+var p1 = new Person(value1, value2.....)
 
 
 
