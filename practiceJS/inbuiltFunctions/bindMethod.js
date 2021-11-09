@@ -21,3 +21,10 @@ var result = introduce.bind(person1,"hello my name is ", 1, 3, 5, 7)
 result()
 
 // introduce.call(person1,"hello my name is ", 1, 3, 5, 7 )
+
+function add(a,b) {
+    console.log(a+b);
+}
+var sum = add.bind(this,3)
+
+sum(4)

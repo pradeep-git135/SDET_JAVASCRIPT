@@ -159,10 +159,62 @@ javascript fallows prototypel inheritance:
 			1) using new Array keyword:	
 				var arrayName = new Array()  // it is not preferable
 
+			2] var arraayNmae = [value1, value2, ......., valuen]
 
+*] predefined objects o javascript:
+	1] Array
+	2] String
+	3] Date
+	4] Math
 
+1] Array:
+	#)properties:
+		arrayNmae.length ; returns the number of elements present in the given array
+	#)array methods:
+	1)array.concat(new_array) ==> Combines two or more arrays. This method returns a new array without modifying any existing arrays.
+	2)arry.every()
+	3)array.some()
+	4)array.push()
+	5)array.unshift()
+	6)array.pop()	
+	7)arrayshift()
+	8)array.splice()
+	9)array.indexof()
+	10)array.lastindexof()
+	11)array.forEach()
+	12)array.map()
+	13)array.filter()
+	14)array.sort()
+	15)array.reduse()
+	16)array.reduseRight()
+	17)array.toString()
+	18)array.slice()
+	19)array.reverse()
+	
+2] String :
+	properties:
+		1]length
+	methods:
+		1) str.index()
+		2) str.lastIndex()
+		3) str.charAt()
+		4) str.charcadeat()
+		5) str.localCompare()
+		6) str.replace()
+		7) str.slice()
+		8) str.split()
+		9) str.substring()
+		10) str.startwith()
+		11) str.trim()
+		12) str.substr()
+		13) str.endsWith()
+		14) str.concat()
+		15) str.repeat()
 
-
+3] Date object:
+	we have to create an instaence of Date_object inorder to access the properties of a date object
+	
+	var refName = new Date();
 
 
 
