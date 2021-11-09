@@ -126,12 +126,38 @@ can only accessed by an object taht had been created from constructor function
 }
 var p1 = new Person(value1, value2.....)
 
+#] __proto__ [double_underscore proto double_underscore]:
+ it's a keyword used to inherit the properties from one object to other
+
+javascript fallows prototypel inheritance:
+	prototypel inheritance: each and every object in javascript is derived from base object(Object)
+
+#] programm execution in memory:
+	refer image
+
+#] this keyword:
+	the value of this keyword depends on the area from where we used it
+		
+
+#] inbuilt functions in javascript:
+
+1)call() 2) bind() 3) apply()
+
+1) call():
+	it's an inbuilt method in javascript, it can used along with functions, it will accept object_reference as a mandetory parameter
+	and it will set the value for this keyword and it will execute the function
+2] bind():
+	it's an inbuilt method in javascript, it can used along with functions, it will accept object_reference as a mandetory parameter
+	and it will create a separate copy of the function and set the value for this keyword and it will return the function
+3] apply():
+	it is similer to call() but the only difference is while passing the arguments it will accept only in array format
 
 
-
-
-
-
+#] array in javascript:
+	to declare an array in javascript:
+		2 ways:
+			1) using new Array keyword:	
+				var arrayName = new Array()  // it is not preferable
 
 
 
