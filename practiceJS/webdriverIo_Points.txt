@@ -1,0 +1,17 @@
+webdriverio:
+	parallell execution,
+	 crossbrowser execution
+	segrigation of different suites 
+	generate html and allure reports
+	get the screenshots of failed test script and attach it to allure report
+	reexecute the failed test scripts
+	experimental knowledge on chai assertion library
+	experimental knowledge on mocha framework
+	mocha hooks
+	inbuilt assertions
+	pom pattern
+	hybrid framework
+	date deriving 
+	
+
+	

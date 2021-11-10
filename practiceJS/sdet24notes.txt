@@ -216,9 +216,79 @@ javascript fallows prototypel inheritance:
 	
 	var refName = new Date();
 
+4] math object:
+		Math.properties
+
+*]setTimeout():
+ 	syntax:
+	 setTimeout(()=>{}, timeunit in ms)
+		it will accept 2 parameters one is callback function and the other is time uniit in miliSeconds
+		it will execute the given callback function once after the specified time
+*]setInterval():
+	syntax:
+	 setinterval(()=>{}, timeunit in ms)
+		it will accept 2 parameters one is callback function and the other is time uniit in miliSeconds
+		it will execute the given callback function repeatedly after the specified time
+
+
+*) es6 features:[ecma_script_6 features]
+	javascript developers had introdused few additional features to enhance the functionality and those 
+	featuers are called es6 features
+
+es6 features:
+1] let_var_const keywords:[variable declared by var keyword won't had scope limit, but variable declared by let, const keyword  had scope limit]
+	block scoping
+	var => variable declared by using var keyword can access anywhere in the file and value of variable can be overrided with/without using var keyword
+	let => variable declared by using let keyword can access only within the scope that had been used and value of variable can be overrided, without using letkeyword
+	const => variable declared by using let keyword can access only within the scope that had been used and value of variable can't be overrided
+
+2]object and array destructuring:
+		
+	objectDestructuring: deriving/extracting the properties from an object and assinging it to a variable is called objectDestructuring
+	syntax:
+		var {property1, property2} = objRef
+
+	arrayDestructuring: deriving/extracting the elements from an array and assinging it to a variable is called arrayDestructuring: 
+	syntax:
+		var [element1, element2] = arrayRef
+
+3] rest and spread operator:(...)
+	rest => return type is an array, rest can be used along with variable name(e.g ...varName)
+	spread => return type is elements of an array, spread can be used only with arrayRef(e.g ...arrayRef)
+
+4]template literals:
+	backtic string (``) and template literal (${refName})
+	e.g var a = "any name"
+		console.log(`the value inside the variable is ${a} `)
+5]promise :
+	it has 3 statuses resilve, reject, pending
+	syntax :
+		var promise = new Promise((resolve, reject)=>{
+				statements when to invoke resolve 
+				and when to invoke reject
+			       })
+		promise.then((msg)=>{console.log(msg)}).catchc((msg)=>{console.log(msg))
+
+	*) promiseChaining:
+		sequential execution of the promises one after the other is called promise chaining(building connection b/w the promises )
+		Promise.all([promise1, promise2, promise3........, promiseN]).then((msg)=>{log(msg)})
+
+	*) promiseRace:
+		it will execute the fastest resolved or rejected promise
+		promise.race([promise1, promise2, promise3........, promiseN]).then((msg)=>{log(msg)})
+	
+6] async and await:
+		ref image javascriptcallStack.png and promise.js files
+
+ 
 
 
 
 
 
+
+
+
+
+	
 
