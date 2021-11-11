@@ -280,6 +280,13 @@ es6 features:
 6] async and await:
 		ref image javascriptcallStack.png and promise.js files
 
+#] JSON => javascript Object Notation
+	* json is a standerd means of data exchange(data exchange b/w 2 applications developed by using same or different languages)
+	* we can store the data in form of key value pair whre key should be string and value can be any datatyope (string, number, array, object, null)
+	 but value won't supprt function and undefined as a datatype
+	
+Json.stingify(javascript_obj) => returns you json_object(converts javascriptObject into json)
+Json.parse(json_obj) => returns the javascript_object (converts json_object into javascriptObject )
  
 
 
