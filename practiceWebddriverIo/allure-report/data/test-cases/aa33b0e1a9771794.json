@@ -1,0 +1,55 @@
+{
+  "uid" : "aa33b0e1a9771794",
+  "name" : "tc03",
+  "fullName" : "suite3.tc03",
+  "historyId" : "ad9579b245601f82ad01336e60310a4f",
+  "time" : {
+    "start" : 1637301580684,
+    "stop" : 1637301580696,
+    "duration" : 12
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "suite3"
+  }, {
+    "name" : "testClass",
+    "value" : "suite3"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc03"
+  }, {
+    "name" : "package",
+    "value" : "suite3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa33b0e1a9771794.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}

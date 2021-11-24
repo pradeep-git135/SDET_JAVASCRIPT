@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","suite1.tc01","10",""
+"broken","suite2.tc02","6480",""
+"passed","suite3.tc03","3",""

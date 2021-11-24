@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637302302711' stop='1637302309197'>
+    <name>suite2</name>
+    <title>suite2</title>
+    <test-cases>
+        <test-case start='1637302302712' status='broken' stop='1637302309192'>
+            <name>tc02</name>
+            <title>tc02</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5d327e59-1032-4ff6-a0ae-01eb458edf42-attachment.png' type='image/png' size='303344'/>
+            </attachments>
+            <failure>
+                <message>intentional failure</message>
+                <stack-trace>AssertionError: intentional failure
+                    at Context.&lt;anonymous> (C:\Users\Pradeep\Desktop\sdetJS\practiceWebddriverIo\test\specs\tc02.js:9:16)
+                    at Context.executeSync (C:\Users\Pradeep\Desktop\sdetJS\practiceWebddriverIo\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\Pradeep\Desktop\sdetJS\practiceWebddriverIo\node_modules\@wdio\sync\build\index.js:69:73</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

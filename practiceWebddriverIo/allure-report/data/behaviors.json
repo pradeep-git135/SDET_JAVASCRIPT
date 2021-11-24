@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "tc01",
+    "uid" : "c667408c52cee2b0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637302298201,
+      "stop" : 1637302298211,
+      "duration" : 10
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "tc02",
+    "uid" : "8dc3fa689ca66ee0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1637302302712,
+      "stop" : 1637302309192,
+      "duration" : 6480
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  }, {
+    "name" : "tc03",
+    "uid" : "ac2c30aa1a10d1c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1637302317741,
+      "stop" : 1637302317744,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome-96.0.4664.45" ]
+  } ]
+}

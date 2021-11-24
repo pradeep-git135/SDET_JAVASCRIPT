@@ -1,0 +1,89 @@
+{
+  "uid" : "8dc3fa689ca66ee0",
+  "name" : "tc02",
+  "fullName" : "suite2.tc02",
+  "historyId" : "fbc92d5eb9f962d174901a225c3dc7fe",
+  "time" : {
+    "start" : 1637302302712,
+    "stop" : 1637302309192,
+    "duration" : 6480
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "intentional failure",
+  "statusTrace" : "AssertionError: intentional failure\n                    at Context.<anonymous> (C:\\Users\\Pradeep\\Desktop\\sdetJS\\practiceWebddriverIo\\test\\specs\\tc02.js:9:16)\n                    at Context.executeSync (C:\\Users\\Pradeep\\Desktop\\sdetJS\\practiceWebddriverIo\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\Pradeep\\Desktop\\sdetJS\\practiceWebddriverIo\\node_modules\\@wdio\\sync\\build\\index.js:69:73",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "intentional failure",
+    "statusTrace" : "AssertionError: intentional failure\n                    at Context.<anonymous> (C:\\Users\\Pradeep\\Desktop\\sdetJS\\practiceWebddriverIo\\test\\specs\\tc02.js:9:16)\n                    at Context.executeSync (C:\\Users\\Pradeep\\Desktop\\sdetJS\\practiceWebddriverIo\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\Pradeep\\Desktop\\sdetJS\\practiceWebddriverIo\\node_modules\\@wdio\\sync\\build\\index.js:69:73",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1d1d2330ae26df5",
+      "name" : "Screenshot",
+      "source" : "1d1d2330ae26df5.png",
+      "type" : "image/png",
+      "size" : 303344
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "suite2"
+  }, {
+    "name" : "testClass",
+    "value" : "suite2"
+  }, {
+    "name" : "testMethod",
+    "value" : "tc02"
+  }, {
+    "name" : "package",
+    "value" : "suite2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.45"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd05523f698da3ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637301575481,
+        "stop" : 1637301575484,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8dc3fa689ca66ee0.json",
+  "parameterValues" : [ "chrome-96.0.4664.45" ]
+}
